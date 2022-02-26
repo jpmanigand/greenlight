@@ -320,7 +320,7 @@ en:
       home: Home
       settings: Profile
       signout: Sign out
-  home_room: Home Room
+  home_room: "Salle d'accueil"
   info_update_success: Information successfully updated.
   invalid_credentials: The email and password you entered did not match our records. Try again or click Forgot Password to reset your password.
   invalid_credentials_external: The email and password you entered did not match our records. Please try again.
