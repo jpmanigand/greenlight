@@ -18,7 +18,7 @@
     <div class="d-flex">
       <%= link_to (current_user ? home_page : root_path), class: "header-brand" do %>
         <% begin %>
-          <%= image_tag(logo_image, class: "header-brand-img", alt:"") %>
+          <%= image_tag("https://raw.githubusercontent.com/jpmanigand/greenlight/customizing/app/assets/images/logo_minarm.jpg", class: "header-logo-minarm", alt:"") %>
         <% rescue %>
           <%= t("administrator.site_settings.branding.invalid") %>
         <% end %>
